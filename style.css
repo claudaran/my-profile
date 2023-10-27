@@ -1,12 +1,9 @@
-/* Reset some default styles */
 body, h1, h2, h3, p, ul, li, a {
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
 }
-
-/* Apply basic styles to the whole page */
 body {
     font-family: Arial, sans-serif;
     background-color: lightblue; /* Background color changed to light blue */
@@ -17,8 +14,6 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
-
-/* Style the header section */
 header {
     text-align: center;
     background-color: #fff;
@@ -30,8 +25,6 @@ header img {
     border-radius: 50%;
     margin-bottom: 15px;
 }
-
-/* Style the header link with a class */
 .header-link {
     display: inline-block;
     background-color: #007bb5;
@@ -45,16 +38,12 @@ header img {
 .header-link:hover {
     background-color: #005a8e;
 }
-
-/* Style the content sections */
 section {
     margin-bottom: 30px;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
 }
-
-/* Style headings and paragraphs */
 h1, h2, h3 {
     margin-bottom: 15px;
 }
@@ -63,13 +52,9 @@ p {
     margin-bottom: 20px;
     font-size: 16px;
 }
-
-/* Style a specific section with an ID */
 #passions-section {
     background-color: lightgray; /* Change background color for a specific section */
 }
-
-/* Style the footer section */
 footer {
     text-align: center;
     padding: 20px 0;
@@ -94,13 +79,9 @@ footer a {
     font-size: 20px;
     color: #777;
 }
-
-/* Style a specific link with a class */
 .footer-link:hover {
     color: #007bb5;
 }
-
-/* Additional styles for the responsive container */
 .responsive-container {
     text-align: center;
     padding: 20px;
@@ -116,8 +97,6 @@ footer a {
 .responsive-container p {
     font-size: 16px;
 }
-
-/* Style the external link button */
 .external-link {
     display: inline-block;
     background-color: #007bb5;
